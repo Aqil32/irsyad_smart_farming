@@ -127,7 +127,7 @@ class HelpPage extends StatelessWidget {
                     context,
                     'Getting Started with Smart Farm',
                     'Learn how to set up your account and connect your first device',
-                    'https://www.example.com/tutorials/getting-started',
+                    'https://youtube.com/shorts/dT5JLk-KgrA?feature=share',
                   )
                 ],
               ),
