@@ -23,23 +23,18 @@ class _DashboardPageState extends State<DashboardPage> with SingleTickerProvider
   ).ref();
   late TabController _tabController;
 
-  // Sensor data
   double _temperature = 25.0;
   double _humidity = 32.2;
   double _soilMoisture = 3;
   bool _isPumpActive = false;
   bool _isAutoMode = true;
-
-  // Threshold values
   double _moistureThreshold = 30.0;
 
-  // Historical data for charts
   List<FlSpot> _temperatureData = [];
   List<FlSpot> _humidityData = [];
   List<FlSpot> _soilMoistureData = [];
   int _maxDataPoints = 10;
 
-  // Stream subscriptions
   List<StreamSubscription> _subscriptions = [];
 
   @override
