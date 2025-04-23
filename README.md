@@ -1,4 +1,4 @@
-# smart_farm_main
+# Smart Farming App
 
 A new Flutter project.
 
